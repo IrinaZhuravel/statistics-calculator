@@ -49,7 +49,7 @@ const getStandardDeviation = (array) => {
 
 const calculate = () => {
   const value = document.querySelector("#numbers").value;
-  if (value === "" || isNaN(value)) {
+  if (value === "") {
     alert("Введите числа для расчета статистики")
   } else {
   const array = value.split(/,\s*/g);
